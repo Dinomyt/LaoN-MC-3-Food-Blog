@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("imgsrc/first\ page\ bg.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("imgsrc/first\ page\ bg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,8 +21,12 @@ h3 {
 
 .li-style {
     text-align: left;
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     font-size: 20px;
     color: white;
     text-shadow: 3px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.card {
+    background: linear-gradient(rgba(107, 106, 109, 0.08), rgba(0, 0, 0, 0.8)), url("imgsrc/card-bg.jpg");
 }
